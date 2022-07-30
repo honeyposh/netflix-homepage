@@ -1,0 +1,236 @@
+.firstpage{
+	background: url(images/netflix.jp.jpg) no-repeat center center/cover;
+	padding-bottom: 20px;
+}
+.firstpage h1{
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0;
+	display: inline-block;
+
+}
+#a{
+	float: right;
+	top:0em;
+	width: 7%;
+}
+h2{
+	text-align: center;
+	padding-top: 100px; 
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+
+}
+p{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	
+}
+#firstparagraph{
+	font-size: 30px;
+}
+#secondparagraph{
+	font-size: 20px;
+}
+input{
+
+	width: 25%;
+	height: 40px;
+	background-color: white;
+	outline: none;
+	border: none;
+	font-weight: bold;
+}
+#but{
+	width: 15%;
+	height: 42px;
+	background-color: red;
+	border: none;
+	outline: none;
+	margin-left: -4px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+div{
+	text-align: center;
+
+
+}
+a {
+	color: white;
+}
+a:link{
+	text-decoration: none;
+}
+#thirdparagraph{
+	color: red;
+	margin-right: 420px;
+	margin-top: 2px;
+	
+}
+hr{
+	background: #222;
+	width: 100%;
+	height: 8px;
+	border: none;
+
+}
+.enjoy{
+	padding: 50px 30px 60px 50px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 3rem;
+	background-color: black;
+}
+
+.enjoy-text h1{
+	padding-top: 80px;
+	font-size: 47px;
+	color: white;
+}
+.enjoy-text p{
+	font-size: 25px;
+}
+.download{
+	padding: 40px 30px 60px 20px;
+	display: grid;
+	grid-template-columns:repeat(2, 1fr);
+	grid-gap: 4rem;
+	background: black;
+}
+.download-text h1{
+	padding-top: 80px;
+	font-size: 47px;
+	color: white;
+}
+.download-text p{
+	font-size: 25px;
+}
+.watch{
+	background-color: black;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.watch-text h1{
+	padding-top: 80px;
+	font-size: 47px;
+	color: white;
+}
+
+.watch-text p{
+	font-size: 25px;
+}
+.kids{
+	background-color: black;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+
+}
+.kid-text h1{
+	padding-top: 80px;
+	font-size: 47px;
+	color: white;
+}
+.kid-text p{
+	font-size: 25px;
+}
+.freq{
+	padding: 70px 180px;
+	background-color: black;
+}
+.freq h1{
+	text-align: center;
+	font-size: 47px;
+	margin-bottom: 50px;
+}
+.questions button{
+	width: 100%;
+	text-align: left;
+	padding: 16px 44px 16px 24px;
+	font-weight: 500;
+	font-size: 25px;
+	margin-bottom: 10px;
+	background: #303030;
+	outline: none;
+	border: none;
+	color: #fff;
+}
+.questions button span{
+	float: right;
+	font-size: 40px;
+	cursor: pointer;
+}
+.faq-answer{
+	width: 100%;
+	height: auto;
+	padding:30px 40px
+	font-weight: 500;
+	font-size: 24px;
+	margin-bottom: 10px;
+	margin-top: -8px;
+	color: #fff;
+	background-color: #303030;
+	text-align: left;
+
+}
+faq-answer span{
+	transform: scaleY(1.2);
+	letter-spacing: 0.06em;
+}
+.closed{
+	display: none;
+}
+.rotate{
+	transform: rotate(45deg);
+}
+.pab{
+	text-align: center;
+	margin-bottom: 35px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.field{
+	text-align: center;
+	margin-bottom: 75px;
+}
+.inp{
+	height: 58px;
+	padding: 5px 10px ;
+	width: 45%;
+	font-size: 16px;
+	outline: none;
+	border: none;
+}
+#get-started{
+	padding: 0.55rem 1.2rem;
+	height: 70px;
+	background: #e50914;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+.footer{
+	background-color: black;
+	/*max-width: 85%;*/
+	/*margin: 70px auto;*/
+}
+.footer a{
+	color: #888;
+	letter-spacing: 0.03rem;
+}
+.column{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 4rem;
+}
+.footer li{
+	line-height: 1.9;
+	list-style: none;
+	margin-bottom: 8px;
+	font-size: 12px;
+}
